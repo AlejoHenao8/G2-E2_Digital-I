@@ -1,3 +1,73 @@
+# instalación de herramienta de programación  Quartus en Linux
+
+## Descargar instalador
+
+Debe acceder a la página oficial de [intel](https://www.intel.com/content/www/us/en/software-kit/795187/intel-quartus-prime-lite-edition-design-software-version-23-1-for-linux.html) para descargar el archivo ".run", asegurese de que esté bien seleccionado el sistema operativo y la última versión disponible del programa.
+![alt text](image.png)
+
+Proceda a presionar el botón de descargar.
+
+![alt text](image-3.png)
+
+## Ejecutar instalador
+
+Cuando finalize la descarga, dirijase a su terminal y ubiquese en la carpeta donde descargó el ".run", una vez ahí ejecute el siguiente comando
+
+    chmod +x qinst-lite-linux-23.1std-991.run
+
+Con esto ahora podrá abrir el instalador desde la termianl con este comando
+
+      ./qinst-lite-linux-23.1std-991.run
+
+Una vez abierto el instalador, fijese bien en que la carpeta predeterminada donde se descargarán los archivos sean en su carpeta **home** y no en la carpeta **root**, ya que si esto pasa, la computadorá no podrá acceder al programa.
+
+![alt text](image-4.png)
+
+Marque las casillas *Quartus&reg; Prime Lite Edition (Free)* ,  *Add-ons and Standalone Software* , y la casilla de la FPGA con la cual va a trabajar, en este caso se usará la **Cyclone&reg; IV** por lo que se marcará *Cyclone&reg; IV device support* . También asegurese de que la casilla de *Auto install after download* esté marcada.
+
+Por ultimo marque la casilla *Agree to Intel license Agreement* y oprima el botón de descargar *Download* y espere a que termine la instalación.
+
+## Después de instalar
+
+Una vez terminada la instalación, confirme de que se descargaron las carpetas en sus respectivos sitios
+
+![alt text](image-6.png) ![alt text](image-5.png) ![alt text](image-7.png)
+
+
+Si está todo bien, diríjase a su carpeta personal **home** y busque y ejecute el archivo *.bashrc*, en él vaya en la parte de abajo del todo y agregue el siguiente texto
+
+    export ALTERAPATH="/home/user/intelFPGA_lite/23.1std/"
+    export QUARTUS_ROOTDIR=${ALTERAPATH}/quartus
+    export QUARTUS_ROOTDIR_OVERRIDE="$QUARTUS_ROOTDIR"
+    export PATH=$PATH:${ALTERAPATH}/quartus/sopc_builder/bin
+    export PATH=$PATH:${ALTERAPATH}/nios2eds/bin
+    export PATH=$PATH:${QSYS_ROOTDIR}
+
+***Recuerde que es completamente necesario cambiar donde dice "user" por el nombre de su usuario***
+
+y también **ENCUENTRE** y marque como comentario (agregando un "#" al inicio) esta línea de texto
+
+ANTES
+
+    export QSYS_ROOTDIR="/home/user/intelFPGA_lite/23.1std/quartus/sopc_builder/bin
+
+DESPUES
+
+    #export QSYS_ROOTDIR="/home/user/intelFPGA_lite/23.1std/quartus/sopc_builder/bin
+
+luego de esto regrese a la terminal y corra el siguiente comando desde el **home** (si no está ahí puede acceder facilmente escribiendo "~") 
+
+    sudo ln -s $QUARTUS_ROOTDIR/bin/quartus /bin/quartus
+
+Con esto hecho deberá ser capaz de ejecutar quartus corriendo desde la terminal el comando `quartus` 
+
+Si esto no le funcona, diríjase a la carpeta */home/unspin/intelFPGA_lite/23.1std/quartus/bin/*, busque el archivo *quartus* y ejecutelo con el comando `./quartus`
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+
 ------------------------------------------------------------------------------------------------------------
 # Instalación de la herramienta de simulación Questa
 Se hará un tutorial para para la instalación del simulador Questa para el sistema operativo Windows en versión 23.1.
