@@ -1,5 +1,9 @@
 # instalación de Linux distribución Ubuntu 22.04.2 LTS 
 
+## Creación de partición del disco
+
+
+
 
 
 
