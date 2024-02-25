@@ -3,11 +3,11 @@
 ## Descargar instalador
 
 Debe acceder a la página oficial de [intel](https://www.intel.com/content/www/us/en/software-kit/795187/intel-quartus-prime-lite-edition-design-software-version-23-1-for-linux.html) para descargar el archivo ".run", asegurese de que esté bien seleccionado el sistema operativo y la última versión disponible del programa.
-![alt text](image.png)
+![alt text](assets/image.png)
 
 Proceda a presionar el botón de descargar.
 
-![alt text](image-3.png)
+![alt text](assets/image-3.png)
 
 ## Ejecutar instalador
 
@@ -21,7 +21,7 @@ Con esto ahora podrá abrir el instalador desde la termianl con este comando
 
 Una vez abierto el instalador, fijese bien en que la carpeta predeterminada donde se descargarán los archivos sean en su carpeta **home** y no en la carpeta **root**, ya que si esto pasa, la computadorá no podrá acceder al programa.
 
-![alt text](image-4.png)
+![alt text](assets/image-4.png)
 
 Marque las casillas *Quartus&reg; Prime Lite Edition (Free)* ,  *Add-ons and Standalone Software* , y la casilla de la FPGA con la cual va a trabajar, en este caso se usará la **Cyclone&reg; IV** por lo que se marcará *Cyclone&reg; IV device support* . También asegurese de que la casilla de *Auto install after download* esté marcada.
 
@@ -31,7 +31,7 @@ Por ultimo marque la casilla *Agree to Intel license Agreement* y oprima el bot�
 
 Una vez terminada la instalación, confirme de que se descargaron las carpetas en sus respectivos sitios
 
-![alt text](image-6.png) ![alt text](image-5.png) ![alt text](image-7.png)
+![alt text](assets/image-6.png) ![alt text](assets/image-5.png) ![alt text](assets/image-7.png)
 
 
 Si está todo bien, diríjase a su carpeta personal **home** y busque y ejecute el archivo *.bashrc*, en él vaya en la parte de abajo del todo y agregue el siguiente texto
@@ -63,9 +63,9 @@ Con esto hecho deberá ser capaz de ejecutar quartus corriendo desde la terminal
 
 Si esto no le funcona, diríjase a la carpeta */home/unspin/intelFPGA_lite/23.1std/quartus/bin/*, busque el archivo *quartus* y ejecutelo con el comando `./quartus`
 
-![alt text](image-8.png)
+![alt text](assets/image-8.png)
 
-![alt text](image-9.png)
+![alt text](assets/image-9.png)
 
 
 ------------------------------------------------------------------------------------------------------------
