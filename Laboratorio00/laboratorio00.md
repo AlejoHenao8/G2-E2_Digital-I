@@ -3,7 +3,7 @@
 ## Descargar instalador
 
 Debe acceder a la página oficial de [intel](https://www.intel.com/content/www/us/en/software-kit/795187/intel-quartus-prime-lite-edition-design-software-version-23-1-for-linux.html) para descargar el archivo ".run", asegurese de que esté bien seleccionado el sistema operativo y la última versión disponible del programa.
-![alt text](assets/image.png)
+![](assets/image.png)
 
 Proceda a presionar el botón de descargar.
 
@@ -11,25 +11,25 @@ Proceda a presionar el botón de descargar.
 
 ## Ejecutar instalador
 
-Cuando finalize la descarga, dirijase a su terminal y ubiquese en la carpeta donde descargó el ".run", una vez ahí ejecute el siguiente comando
+Cuando finalice la descarga, diríjase a su terminal y ubíquese en la carpeta donde descargó el ".run", una vez ahí ejecute el siguiente comando
 
     chmod +x qinst-lite-linux-23.1std-991.run
 
-Con esto ahora podrá abrir el instalador desde la termianl con este comando
+Con esto ahora podrá abrir el instalador desde la terminal con este comando
 
       ./qinst-lite-linux-23.1std-991.run
 
-Una vez abierto el instalador, fijese bien en que la carpeta predeterminada donde se descargarán los archivos sean en su carpeta **home** y no en la carpeta **root**, ya que si esto pasa, la computadorá no podrá acceder al programa.
+Una vez abierto el instalador, fíjese bien en que la carpeta predeterminada donde se descargarán los archivos sean en su carpeta **home** y no en la carpeta **root**, ya que si esto pasa, la computadora no podrá acceder al programa.
 
 ![alt text](assets/image-4.png)
 
-Marque las casillas *Quartus&reg; Prime Lite Edition (Free)* ,  *Add-ons and Standalone Software* , y la casilla de la FPGA con la cual va a trabajar, en este caso se usará la **Cyclone&reg; IV** por lo que se marcará *Cyclone&reg; IV device support* . También asegurese de que la casilla de *Auto install after download* esté marcada.
+Marque las casillas *Quartus&reg; Prime Lite Edition (Free)* ,  *Add-ons and Standalone Software* , y la casilla de la FPGA con la cual va a trabajar, en este caso se usará la **Cyclone&reg; IV** por lo que se marcará *Cyclone&reg; IV device support* . También asegúrese de que la casilla de *Auto install after download* esté marcada.
 
-Por ultimo marque la casilla *Agree to Intel license Agreement* y oprima el botón de descargar *Download* y espere a que termine la instalación.
+Por último marque la casilla *Agree to Intel license Agreement* y oprima el botón de descargar *Download* y espere a que termine la instalación.
 
 ## Después de instalar
 
-Una vez terminada la instalación, confirme de que se descargaron las carpetas en sus respectivos sitios
+Una vez terminada la instalación, confirme que se descargaron las carpetas en sus respectivos sitios
 
 ![alt text](assets/image-6.png) ![alt text](assets/image-5.png) ![alt text](assets/image-7.png)
 
@@ -55,13 +55,13 @@ DESPUES
 
     #export QSYS_ROOTDIR="/home/user/intelFPGA_lite/23.1std/quartus/sopc_builder/bin
 
-luego de esto regrese a la terminal y corra el siguiente comando desde el **home** (si no está ahí puede acceder facilmente escribiendo "~") 
+luego de esto regrese a la terminal y corra el siguiente comando desde el **home** (si no está ahí puede acceder fácilmente escribiendo "~") 
 
     sudo ln -s $QUARTUS_ROOTDIR/bin/quartus /bin/quartus
 
 Con esto hecho deberá ser capaz de ejecutar quartus corriendo desde la terminal el comando `quartus` 
 
-Si esto no le funcona, diríjase a la carpeta */home/unspin/intelFPGA_lite/23.1std/quartus/bin/*, busque el archivo *quartus* y ejecutelo con el comando `./quartus`
+Si esto no le funciona, diríjase a la carpeta */home/unspin/intelFPGA_lite/23.1std/quartus/bin/*, busque el archivo *quartus* y ejecutelo con el comando `./quartus`
 
 ![alt text](assets/image-8.png)
 
