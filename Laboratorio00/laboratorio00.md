@@ -10,6 +10,15 @@ Luego se debe abrira la ventana de "Disk Management" en esta se pueden observar 
 
 ![](assets/diskmanagement.PNG)
 
+Se seleccióna el disco donde se pretende realizar la particion y se seleccióna la opción de "Shrink Volume" y se define cuanto almacenamiento tendra la nueva partición a crear:
+
+![](assets/shrinkvolume.PNG)
+
+
+Finalmente en la pestaña de "Disk Managment" se podra ver la nueva partición creada lista para el siguente paso en la instalación de Linux:
+
+![](assets/finalpartition.PNG)
+
 
 
 
