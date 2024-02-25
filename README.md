@@ -3,7 +3,7 @@
 
 ### Diego Alejandro Henao Lara 
 
-Ingeniero electrónico
+Estudiante de Ingeniería eléctrica
 
 [dihenaol@unal.edu.co](mailto:dihenaol@unal.edu.co)
 
