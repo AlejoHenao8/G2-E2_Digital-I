@@ -4,7 +4,7 @@
 
 El primer paso para la instalación de Linux manteniendo el sistema operativo original es crear una partición del disco, para esto se debe entrar a la seccion de "crear y formatear particiónes del disco duro" en cofiguración del PC:
 
-![](assets/partitions disk.PNG)
+![](assets/partitionsdisk.PNG)
 
 
 
