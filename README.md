@@ -1,5 +1,6 @@
 # Laboratorio de Electrónica Digital - Grupo 2 - Equipo 2
 ## Integrantes: 
+
 ### Diego Alejandro Henao Lara 
 
 Ingeniero electrónico
