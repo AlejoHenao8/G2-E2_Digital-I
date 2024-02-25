@@ -7,7 +7,7 @@ Debe acceder a la página oficial de [intel](https://www.intel.com/content/www/u
 
 Proceda a presionar el botón de descargar.
 
-![alt text](assets/image-3.png)
+![](assets/image-3.png)
 
 ## Ejecutar instalador
 
@@ -21,7 +21,7 @@ Con esto ahora podrá abrir el instalador desde la terminal con este comando
 
 Una vez abierto el instalador, fíjese bien en que la carpeta predeterminada donde se descargarán los archivos sean en su carpeta **home** y no en la carpeta **root**, ya que si esto pasa, la computadora no podrá acceder al programa.
 
-![alt text](assets/image-4.png)
+![](assets/image-4.png)
 
 Marque las casillas *Quartus&reg; Prime Lite Edition (Free)* ,  *Add-ons and Standalone Software* , y la casilla de la FPGA con la cual va a trabajar, en este caso se usará la **Cyclone&reg; IV** por lo que se marcará *Cyclone&reg; IV device support* . También asegúrese de que la casilla de *Auto install after download* esté marcada.
 
@@ -31,7 +31,7 @@ Por último marque la casilla *Agree to Intel license Agreement* y oprima el bot
 
 Una vez terminada la instalación, confirme que se descargaron las carpetas en sus respectivos sitios
 
-![alt text](assets/image-6.png) ![alt text](assets/image-5.png) ![alt text](assets/image-7.png)
+![](assets/image-6.png) ![](assets/image-5.png) ![](assets/image-7.png)
 
 
 Si está todo bien, diríjase a su carpeta personal **home** y busque y ejecute el archivo *.bashrc*, en él vaya en la parte de abajo del todo y agregue el siguiente texto
@@ -63,9 +63,9 @@ Con esto hecho deberá ser capaz de ejecutar quartus corriendo desde la terminal
 
 Si esto no le funciona, diríjase a la carpeta */home/unspin/intelFPGA_lite/23.1std/quartus/bin/*, busque el archivo *quartus* y ejecutelo con el comando `./quartus`
 
-![alt text](assets/image-8.png)
+![](assets/image-8.png)
 
-![alt text](assets/image-9.png)
+![](assets/image-9.png)
 
 
 ------------------------------------------------------------------------------------------------------------
