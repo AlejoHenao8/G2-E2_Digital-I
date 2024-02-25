@@ -1,3 +1,13 @@
+# instalación de Linux distribución Ubuntu 22.04.2 LTS 
+
+
+
+
+
+
+
+
+
 # instalación de herramienta de programación  Quartus en Linux
 
 ## Descargar instalador
