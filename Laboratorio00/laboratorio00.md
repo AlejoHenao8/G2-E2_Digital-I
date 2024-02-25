@@ -27,7 +27,7 @@ Marque las casillas *Quartus&reg; Prime Lite Edition (Free)* ,  *Add-ons and Sta
 
 Por último marque la casilla *Agree to Intel license Agreement* y oprima el botón de descargar *Download* y espere a que termine la instalación.
 
-## Después de instalar
+## Ejecutar programa
 
 Una vez terminada la instalación, confirme que se descargaron las carpetas en sus respectivos sitios
 
