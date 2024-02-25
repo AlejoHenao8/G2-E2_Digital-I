@@ -6,7 +6,7 @@ El primer paso para la instalación de Linux preservando el sistema operativo or
 
 ![](assets/partitionsdisk.PNG)
 
-Luego se debe abrira la ventana de "Disk Managment" en esta se pueden observar como esta organizado el almacenamiento del PC:
+Luego se debe abrira la ventana de "Disk Management" en esta se pueden observar como esta organizado el almacenamiento del PC:
 
 ![](assets/diskmanagement.PNG)
 
