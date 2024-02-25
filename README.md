@@ -8,8 +8,8 @@ Estudiante de Ingeniería eléctrica
 [dihenaol@unal.edu.co](mailto:dihenaol@unal.edu.co)
 
 ### Esteban Duran 
-Carrera
-Correo
+Estudiante de Ingenería Mecatrónica 
+[eduran@unal.edu.co](mailto:edural@unal.edu.co)
 
 ### Angel
 Carrera
