@@ -12,7 +12,7 @@ Estudiante de Ingenería Mecatrónica
 
 [eduran@unal.edu.co](mailto:edural@unal.edu.co)
 
-### Angel
-Carrera
- Correo
+### Angel David Carvajal Tapias
+Estudiante de Ingeniería Eléctrica
+[acarvajalta@unal.edu.co](mailto:acarvajalta@unal.edu.co)
  
