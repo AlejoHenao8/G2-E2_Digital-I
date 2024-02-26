@@ -43,16 +43,36 @@ Luego para recuperar un sistema operativo se repitio el proceso  anterior para i
 
 ## Instalación de Linux Ubuntu 22.04.2 LTS:
 
-Para Instalar la version de Ubuntu 22.04.2 LTS se realizo el proceso  en la BIOS anteriormente explicado , sin embargo esta vez se selecciono una USB con Ubunto para realizar el BOOT, luego de esto comenzo la instalación con la siguente ventana:
+Para Instalar la version de Ubuntu 22.04.2 LTS se realizo el proceso  en la BIOS anteriormente explicado , sin embargo esta vez se selecciono una USB con Ubunto para realizar el BOOT, luego de esto comenzo la instalación con la ventana que se ve acontinuación, se selecciona la opcion de instalar:
 
 
-![](assets/ubuntup1.jpeg)
+![](assets/ubuntup2.jpeg)
+
+
+Se seleccionan las opciones de idioma, region, hora y demas personalizaciones
+
+![](assets/ubuntup3.jpeg)
+
+Se seleccionan las opciones de instalación teniendo en cuenta que se debe tener una instalación normal y con todos los drivers para evitar errores como los que se habian experiemtando anteriormente: 
+
+
+![](assets/ubuntup4.jpeg)
+
+ En la siguente ventana se eligue la opción de instalar Ubuntu con un boot de Windows, esto permitio recuperar el boot de Windows y por tanto toda la información que se tenia almacenada en esta partición del disco.
+
+ 
+![](assets/ubuntup5.jpeg)
+
+Luego se obtiene la ventana final para configurar el usuario y contraseña a utilizar: 
+
+
+![](assets/ubuntup6.jpeg)
+
+Finalmente se abre Linux Ubuntu 22.04.2 LTS con un funcionamiento correcto listo para seguir con las siguentes instalaciónes importnates para el laboratorio respectivo: 
 
 
 
-
-
-
+![](assets/ubuntup7.jpeg)
 
 
 
