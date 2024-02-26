@@ -25,10 +25,12 @@ En el caso particular tratado ya se tenia una version de Ubuntu 20.04 LTS sin em
 
 Ya con la creación de la partición del disco el siguente paso para seguir con la instalación de Linux es realizar un boot desde una USB con la distiribución de Linux que se desea, para esto se debe entrar a la BIOS o UEFI (Unified Extensible Firmware Interface), para hacer esto en el momento cuando el PC esta iniciando se presiona una tecla (normalmente F12 o esc) multiples veces, esto permite ingresar a la siguiente ventana: 
 
-
 ![](assets/BIOS.jpeg)
 
 En la ventana de la BIOS se debe entrar a la pensataña de Boot ahi se puede selecciónar el dispositivo desde el cual se realizara el Boot, se debe seleccionar la USB ya que ahi de tiene la distribución de Linux a instalar.
+
+![](assets/BIOSBOOT.jpeg)
+
 
 
 
