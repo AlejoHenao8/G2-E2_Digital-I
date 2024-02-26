@@ -46,7 +46,7 @@ Luego para recuperar un sistema operativo se repitio el proceso  anterior para i
 Para Instalar la version de Ubuntu 22.04.2 LTS se realizo el proceso  en la BIOS anteriormente explicado , sin embargo esta vez se selecciono una USB con Ubunto para realizar el BOOT, luego de esto comenzo la instalación con la 
 
 
-
+![](assets/ubuntup1.jpeg)
 
 
 
