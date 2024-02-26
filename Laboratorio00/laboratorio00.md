@@ -17,7 +17,7 @@ Se seleccióna el disco donde se pretende realizar la particion y se seleccióna
 
 Finalmente en la pestaña de "Disk Managment" se podra ver la nueva partición creada lista para el siguente paso en la instalación de Linux:
 
-![](assets/finalpartition.PNG)
+![](assets/BIOS.png)
 
 ## Intento fallido de instalación de Linux Mint 21.3:
 
