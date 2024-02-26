@@ -36,6 +36,8 @@ Luego de seleccionar desde que punto se realizaria el BOOT se guardan los cambio
 Luego de Borrar la partición de Ubuntu y reiniciar el PC sucedio lo que se temia, se perdio la posibilidad de acceder a Windows y como se habia borrado la particion de Ubuntu el PC quedo sin un sistema operativo.
 
 
+![](assets/Crash.jpeg)
+
 
 
 
