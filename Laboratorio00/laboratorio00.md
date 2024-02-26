@@ -1,4 +1,4 @@
-# instalación de Linux distribución Ubuntu 22.04.2 LTS 
+# Instalación de Linux en partición de disco
 
 ## Creación de partición del disco
 
@@ -16,6 +16,14 @@ Se seleccióna el disco donde se pretende realizar la particion y se seleccióna
 
 
 Finalmente en la pestaña de "Disk Managment" se podra ver la nueva partición creada lista para el siguente paso en la instalación de Linux:
+
+![](assets/finalpartition.PNG)
+
+## Intento fallido de instalación de Linux Mint 21.3:
+
+En el caso particular tratado ya se tenia una version de Ubuntu 20.04 LTS sin embargo se presentaban problemas con los drivers necesarios para el reconocimiento de la tarjeta de red del PC, esto probablemente debido a errores en la instalación del sistema operativo, por esta razon se planteo inicalmente la instalación de la distribución Mint 21.3 pensando que esta distribución podria incluir los drivers requeridos.
+
+Ya con la creación de la partición del disco el siguente paso para seguir con la instalación de Linux es realizar un boot desde una USB con la distiribución de Linux que se desea, para esto se debe entrar a la BIOS o UEFI (Unified Extensible Firmware Interface), para hacer esto en el momento cuando el PC esta iniciando se presiona una tecla (normalmente F12 o esc) multiples veces, esto permite ingresar a la siguiente ventana: 
 
 ![](assets/finalpartition.PNG)
 
