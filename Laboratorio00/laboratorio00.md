@@ -28,6 +28,12 @@ Ya con la creación de la partición del disco el siguente paso para seguir con 
 
 ![](assets/BIOS.jpeg)
 
+En la ventana de la BIOS se debe entrar a la pensataña de Boot ahi se puede selecciónar el dispositivo desde el cual se realizara el Boot, se debe seleccionar la USB ya que ahi de tiene la distribución de Linux a instalar.
+
+
+
+
+
 
 
 
