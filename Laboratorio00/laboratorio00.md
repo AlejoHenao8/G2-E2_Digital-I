@@ -29,7 +29,11 @@ Ya con la creación de la partición del disco el siguente paso para seguir con 
 
 En la ventana de la BIOS se debe entrar a la pensataña de Boot ahi se puede selecciónar el dispositivo desde el cual se realizara el Boot, se debe seleccionar la USB ya que ahi de tiene la distribución de Linux a instalar.
 
-![](assets/BIOSBOOT.jpeg)
+![](assets/BIODBOOT.jpeg)
+
+Luego de seleccionar desde que punto se realizaria el BOOT se guardan los cambios y se comienza la instalación, sin embargo al finalizar esta instalación e intentar ingrear a Linux Mint, por alguna razon no identificada, se seguia ingresando a la version de Ubuntu que se habia instalado inicialmente en el PC, para solucionar este problema se planteo borrar la partición  del disco donde se habia instalado Ubunto y volver a instalar Linux, sin embargo se tenia la preocupación de que al hacer esto no se pudiera acceder al boot de Windows, esto ya que en la Bios solo aparecia un Boot para Ubuntu.
+
+Luego de Borrar la partición de Ubuntu y reiniciar el PC sucedio lo que se temia, se perdio la posibilidad de acceder a Windows y como se habia borrado la particion de Ubuntu el PC quedo sin un sistema operativo.
 
 
 
