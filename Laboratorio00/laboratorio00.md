@@ -41,8 +41,9 @@ Luego de Borrar la partición de Ubuntu y reiniciar el PC sucedio lo que se temi
 Luego para recuperar un sistema operativo se repitio el proceso  anterior para instalar Mint nuevamente en la partición donde se tenia Ubuntu, sin embargo al finalizar el proceso e intentar inicializar Mint nuevamente se inicio una version de Ubunto con errores donde no funcionaba el mouse ni los drivers de que permitian leer la trajeta de internet, debido a esto se decidio probar con una instalción de Ubuntu nuevamente pero ahora de la version 22.04.2 LTS.
 
 
-## Intento fallido de instalación de Linux 22.04.2 LTS:
+## Instalación de Linux Ubuntu 22.04.2 LTS:
 
+Para Instalar la version de Ubuntu 22.04.2 LTS se realizo el proceso  en la BIOS anteriormente explicado , sin embargo esta vez se selecciono una USB con Ubunto para realizar el BOOT, luego de esto comenzo la instalación con la 
 
 
 
