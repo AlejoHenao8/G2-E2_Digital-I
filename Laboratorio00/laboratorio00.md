@@ -17,7 +17,7 @@ Se seleccióna el disco donde se pretende realizar la particion y se seleccióna
 
 Finalmente en la pestaña de "Disk Managment" se podra ver la nueva partición creada lista para el siguente paso en la instalación de Linux:
 
-![](assets/BIOS.jpeg)
+![](assets/finalpartition.PNG)
 
 ## Intento fallido de instalación de Linux Mint 21.3:
 
@@ -25,7 +25,8 @@ En el caso particular tratado ya se tenia una version de Ubuntu 20.04 LTS sin em
 
 Ya con la creación de la partición del disco el siguente paso para seguir con la instalación de Linux es realizar un boot desde una USB con la distiribución de Linux que se desea, para esto se debe entrar a la BIOS o UEFI (Unified Extensible Firmware Interface), para hacer esto en el momento cuando el PC esta iniciando se presiona una tecla (normalmente F12 o esc) multiples veces, esto permite ingresar a la siguiente ventana: 
 
-![](assets/finalpartition.PNG)
+
+![](assets/BIOS.jpeg)
 
 
 
