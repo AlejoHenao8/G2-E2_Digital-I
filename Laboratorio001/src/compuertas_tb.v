@@ -21,42 +21,30 @@ compuertas uut(A_tb,B_tb,C_tb,S1_tb,S2_tb,S3_tb,S4_tb);
 initial begin // IDEA DEL LAB ES PROBAR TODOS LOS CASOS ADN TIENE 4 NOT SOLO 2
 
 A_tb = 0;
-
 B_tb = 0;
-
 C_tb = 0;
-
-#100;
-
+#1;
+    
 A_tb = 0;
-
 B_tb = 1;
-
 C_tb = 1;
-
-#100;
-
+#1;
+    
 A_tb = 1;
-
 B_tb = 0;
-
 C_tb = 0;
-
-#100;
-
+#1;
+    
 A_tb = 1;
-
 B_tb = 1;
-
 C_tb = 0;
-#100;
+#1;
 end
 
 initial begin: TEST_CASE
     $dumpfile("compuertas.vcd");
     $dumpvars(-1,uut);
-    #600; $finish;
+    #20; $finish;
 end
-
 
 endmodule 
