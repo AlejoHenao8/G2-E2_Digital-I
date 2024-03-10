@@ -10,6 +10,9 @@
  ![](Imagenes/Gráfica_compuertas.png)
 
 
+ Como se puede observar en la imagen superior todas las posibilidades que se podrian expresar en una tabal de verdad para cada una de las compuertas seleccionadas quedan expresadas en la simulación con Icarus y gtkwave.
+
+
 ## Punto 2: Sumador de bits en Quartus.
 
 
