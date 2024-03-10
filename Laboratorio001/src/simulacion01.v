@@ -1,3 +1,4 @@
+
 `timescale 1ps/1ps
 module lab01_TB(); //archivo para la simulacion
 
