@@ -7,7 +7,7 @@
 
  La ultima parte del laboratorio consistio en la simulación de las compuertas logicas con Icarus y gtkwave, para esto desde la carpeta build en el terminal se corrio el siguente comando "gtkwave compuertas.vcd" esto comenzo la simulación que tuvo los resultados que se pueden observar en la siguente imagen:
 
- ![](Laboratorio001/Imagenes/Gráfica_compuertas.png)
+ ![](Imagenes/Gráfica_compuertas.png)
 
 
 ## Punto 2: Sumador de bits en Quartus.
