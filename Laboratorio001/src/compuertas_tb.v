@@ -15,7 +15,7 @@ wire S3_tb;
 wire S4_tb;
 
 
-Lab01 uut(A_tb,B_tb,C_tb,S1_tb,S2_tb,S3_tb,S4_tb);
+compuertas uut(A_tb,B_tb,C_tb,S1_tb,S2_tb,S3_tb,S4_tb);
 
 
 initial begin // IDEA DEL LAB ES PROBAR TODOS LOS CASOS ADN TIENE 4 NOT SOLO 2
