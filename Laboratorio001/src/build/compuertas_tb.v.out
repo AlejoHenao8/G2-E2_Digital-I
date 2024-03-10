@@ -1,0 +1,97 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)" "(v12_0-dirty)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "/usr/lib/ivl/system.vpi";
+:vpi_module "/usr/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/ivl/va_math.vpi";
+:vpi_module "/usr/lib/ivl/v2009.vpi";
+S_0x56121afbb5c0 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_0x56121afbb750 .scope module, "compuertas_tb" "compuertas_tb" 3 5;
+ .timescale -12 -12;
+v0x56121afd07e0_0 .var "A_tb", 0 0;
+v0x56121afd08a0_0 .var "B_tb", 0 0;
+v0x56121afd0940_0 .var "C_tb", 0 0;
+v0x56121afd09e0_0 .net "S1_tb", 0 0, L_0x56121afd0d40;  1 drivers
+v0x56121afd0ab0_0 .net "S2_tb", 0 0, L_0x56121afd0ea0;  1 drivers
+v0x56121afd0ba0_0 .net "S3_tb", 0 0, L_0x56121afd0fb0;  1 drivers
+v0x56121afd0c70_0 .net "S4_tb", 0 0, L_0x56121afd1070;  1 drivers
+S_0x56121af81310 .scope begin, "TEST_CASE" "TEST_CASE" 3 44, 3 44 0, S_0x56121afbb750;
+ .timescale -12 -12;
+S_0x56121af814f0 .scope module, "uut" "compuertas" 3 18, 4 3 0, S_0x56121afbb750;
+ .timescale 0 0;
+    .port_info 0 /INPUT 1 "A";
+    .port_info 1 /INPUT 1 "B";
+    .port_info 2 /INPUT 1 "C";
+    .port_info 3 /OUTPUT 1 "S1";
+    .port_info 4 /OUTPUT 1 "S2";
+    .port_info 5 /OUTPUT 1 "S3";
+    .port_info 6 /OUTPUT 1 "S4";
+L_0x56121afd0d40 .functor AND 1, v0x56121afd07e0_0, v0x56121afd08a0_0, C4<1>, C4<1>;
+L_0x56121afd0ea0 .functor NOT 1, v0x56121afd0940_0, C4<0>, C4<0>, C4<0>;
+L_0x56121afd0fb0 .functor OR 1, v0x56121afd07e0_0, v0x56121afd08a0_0, C4<0>, C4<0>;
+L_0x56121afd1070 .functor XOR 1, v0x56121afd07e0_0, v0x56121afd08a0_0, C4<0>, C4<0>;
+v0x56121af816d0_0 .net "A", 0 0, v0x56121afd07e0_0;  1 drivers
+v0x56121afd0250_0 .net "B", 0 0, v0x56121afd08a0_0;  1 drivers
+v0x56121afd0310_0 .net "C", 0 0, v0x56121afd0940_0;  1 drivers
+v0x56121afd03b0_0 .net "S1", 0 0, L_0x56121afd0d40;  alias, 1 drivers
+v0x56121afd0470_0 .net "S2", 0 0, L_0x56121afd0ea0;  alias, 1 drivers
+v0x56121afd0580_0 .net "S3", 0 0, L_0x56121afd0fb0;  alias, 1 drivers
+v0x56121afd0640_0 .net "S4", 0 0, L_0x56121afd1070;  alias, 1 drivers
+    .scope S_0x56121afbb750;
+T_0 ;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd07e0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd08a0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd0940_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd07e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56121afd08a0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56121afd0940_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56121afd07e0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd08a0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd0940_0, 0, 1;
+    %delay 1, 0;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56121afd07e0_0, 0, 1;
+    %pushi/vec4 1, 0, 1;
+    %store/vec4 v0x56121afd08a0_0, 0, 1;
+    %pushi/vec4 0, 0, 1;
+    %store/vec4 v0x56121afd0940_0, 0, 1;
+    %delay 1, 0;
+    %end;
+    .thread T_0;
+    .scope S_0x56121afbb750;
+T_1 ;
+    %fork t_1, S_0x56121af81310;
+    %jmp t_0;
+    .scope S_0x56121af81310;
+t_1 ;
+    %vpi_call/w 3 45 "$dumpfile", "compuertas.vcd" {0 0 0};
+    %vpi_call/w 3 46 "$dumpvars", 32'sb11111111111111111111111111111111, S_0x56121af814f0 {0 0 0};
+    %delay 5, 0;
+    %vpi_call/w 3 47 "$finish" {0 0 0};
+    %end;
+    .scope S_0x56121afbb750;
+t_0 %join;
+    %end;
+    .thread T_1;
+# The file index is used to find the file name in the following table.
+:file_names 5;
+    "N/A";
+    "<interactive>";
+    "-";
+    "Laboratorio001/src/compuertas_tb.v";
+    "Laboratorio001/src/compuertas.v";
