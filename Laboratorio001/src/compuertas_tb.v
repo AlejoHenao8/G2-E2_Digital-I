@@ -44,7 +44,7 @@ end
 initial begin: TEST_CASE
     $dumpfile("compuertas.vcd");
     $dumpvars(-1,uut);
-    #20; $finish;
+    #5; $finish;
 end
 
 endmodule 
