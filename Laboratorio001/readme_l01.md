@@ -1,17 +1,22 @@
 # Informe Laboratorio 01 
-## Punto 1: Compuertas Logicas en Quartus.
+## Punto 1: Compuertas Lógicas en Icarus Verilog y GTKWave.
 
- La primera parte del laboratorio consistia en programar desde Quartus,las siguentes compuertas logicas: AND,NOT,OR y XOR esto se hizo en Verilog como se puede ver en el archivo compuertas.v en la carpeta src, en el programa se difinieron las salidas desde S1,S2,S3 y S4 , las entradas como A,B y C, luego se le asigno a cada salida la logica correspondiete de cada compuerta logica deseada, S1 para AND, S2 para NOT, S3 para OR y S4 para XOR.
+ La primera parte del laboratorio consistía en programar desde Quartus, las siguientes compuertas lógicas: AND, NOT, OR y XOR esto se hizo en Verilog como se puede ver en el archivo `Laboratorio001/src/compuertas.v`, en el programa se definieron las salidas desde `S1`,`S2`,`S3` y `S4`, y las entradas como `A`, `B` y `C`, luego se le asignó a cada salida logical correspondiente de cada compuerta lógica deseada, `S1` para AND, `S2` para NOT, `S3` para OR y `S4` para XOR.
 
- La segunda parte del laboratorio fue la programación del Testbench que se utilizaria para simular las compuertas logicas en el archivo compuertas.v, para esto se definieron las entradas como reg y las salidas como wire, posteriormente se definieron todas las combinaciones de 1 o 0 de las variables, para obtener todas las salidas posibles, finalmente se escribio un pequeño script para crear un archivo .vcd para la posterior simulación con Icarus y gtkwave, todo lo anterior se puede ver en el archivo compuertas_tb.v.
+La segunda parte del laboratorio fue la programación del Testbench que se utilizaría para simular las compuertas lógicas del archivo `Laboratorio001/src/compuertas.v`, para esto se definieron las entradas como `reg` y las salidas como `wire`, posteriormente se definieron todas las combinaciones de "1" o "0" de las variables, para obtener todas las salidas posibles, finalmente se escribió un pequeño script para crear un archivo `.vcd` para la posterior simulación con GTKWave, todo lo anterior se puede ver en el archivo `Laboratorio001/src/compuertas_tb.v`.
 
- La ultima parte del laboratorio consistio en la simulación de las compuertas logicas con Icarus y gtkwave, para esto desde la carpeta build en el terminal se corrio el siguente comando "gtkwave compuertas.vcd" esto comenzo la simulación que tuvo los resultados que se pueden observar en la siguente imagen:
+ La última parte del laboratorio consistió en la simulación de las compuertas lógicas con GTKWave, para esto desde la carpeta `Laboratorio001/src/build` en el terminal se ejecutó el siguiente comando `gtkwave compuertas.vcd` esto comenzó la simulación que tuvo los resultados que se pueden observar en la siguiente imagen:
 
  ![](Imagenes/Gráfica_compuertas.png)
 
+ Como se puede observar en la imagen superior, todas las posibilidades que se podrían expresar en una tabla de verdad para cada una de las compuertas seleccionadas quedan expresadas en la simulación con GTKWave.
 
- Como se puede observar en la imagen superior todas las posibilidades que se podrian expresar en una tabal de verdad para cada una de las compuertas seleccionadas quedan expresadas en la simulación con Icarus y gtkwave.
-
+| A   | B   | S1  | S3  | S4  | C   | S2  |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   | 0   | 1   |
+| 0   | 1   | 0   | 1   | 1   | 1   | 0   |
+| 1   | 0   | 0   | 1   | 1   | 0   | 1   |
+| 1   | 1   | 1   | 1   | 0   |     |     |
 
 ## Punto 2: Sumador de bits en Quartus.
 
