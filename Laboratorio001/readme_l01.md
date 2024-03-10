@@ -20,6 +20,22 @@ La segunda parte del laboratorio fue la programación del Testbench que se utili
 
 ## Punto 2: Sumador de bits en Quartus.
 
+![](Imagenes/Sumador.png)
 
+Para poder hacer el circuito completo, primero definimos las entradas lógicas `A`, `B` y `Ci`, y a la vez las primeras salidas de cada operador `X1`$=A\oplus B$, `A1`$=A\land B$ y `A2`$=X1 \land Ci$ y las últimas salidas `S1`$=X1\oplus Ci$ y `Co`$=A1\lor A2$, en el archivo `Laboratorio001/src/lab01.v` luego se compila con Quartus y creamos el Testbench `Laboratorio001/src/simulacion01.v` con todas las posibilidades para `A_tb`, `B_tb` y `Ci_tb` como `reg` y `S1_tb`, y `Co_tb` como `wire`. Luego esto lo ponemos en Questa y obtenemos la siguiente imagen 
 
+![](Imagenes/Gráfica_SumadorBits.png)
+
+y con esta la tabla de verdad
+
+| A   | B   | Ci  | X1  | A1  | A2  | S1  | Co  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+| 0   | 0   | 1   | 0   | 0   | 0   | 1   | 0   |
+| 0   | 1   | 0   | 1   | 0   | 0   | 1   | 0   |
+| 0   | 1   | 1   | 1   | 0   | 1   | 0   | 1   |
+| 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
+| 1   | 0   | 1   | 1   | 0   | 1   | 0   | 1   |
+| 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
+| 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
 
