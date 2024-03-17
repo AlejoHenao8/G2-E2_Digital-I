@@ -7,7 +7,7 @@ Estudiante de Ingeniería Eléctrica
 
 [dihenaol@unal.edu.co](mailto:dihenaol@unal.edu.co)
 
-### Esteban Duran 
+### Esteban Duran Jimenez 
 Estudiante de Ingenería Mecatrónica 
 
 [eduran@unal.edu.co](mailto:edural@unal.edu.co)
