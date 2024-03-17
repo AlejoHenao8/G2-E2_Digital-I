@@ -1,0 +1,45 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2009.vpi";
+S_000001f2c7562d20 .scope package, "$unit" "$unit" 2 1;
+ .timescale 0 0;
+S_000001f2c7562eb0 .scope module, "FA" "FA" 3 1;
+ .timescale 0 0;
+    .port_info 0 /INPUT 4 "A";
+    .port_info 1 /INPUT 4 "B";
+    .port_info 2 /INPUT 1 "Ci";
+    .port_info 3 /OUTPUT 1 "Co";
+    .port_info 4 /OUTPUT 1 "Su";
+o000001f2c7596fb8 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v000001f2c7563520_0 .net "A", 3 0, o000001f2c7596fb8;  0 drivers
+o000001f2c7596fe8 .functor BUFZ 4, C4<zzzz>; HiZ drive
+v000001f2c7563040_0 .net "B", 3 0, o000001f2c7596fe8;  0 drivers
+o000001f2c7597018 .functor BUFZ 1, C4<z>; HiZ drive
+v000001f2c75630e0_0 .net "Ci", 0 0, o000001f2c7597018;  0 drivers
+v000001f2c73de6c0_0 .net "Co", 0 0, L_000001f2c73debb0;  1 drivers
+v000001f2c73de760_0 .net "Su", 0 0, L_000001f2c73dec50;  1 drivers
+v000001f2c73de800_0 .net *"_ivl_12", 1 0, L_000001f2c75dc340;  1 drivers
+v000001f2c73de8a0_0 .net *"_ivl_3", 3 0, L_000001f2c75dc7a0;  1 drivers
+v000001f2c73de940_0 .net *"_ivl_5", 3 0, L_000001f2c75dc020;  1 drivers
+L_000001f2c75dcc28 .functor BUFT 1, C4<000>, C4<0>, C4<0>, C4<0>;
+v000001f2c73de9e0_0 .net *"_ivl_8", 2 0, L_000001f2c75dcc28;  1 drivers
+v000001f2c73deb10_0 .net *"_ivl_9", 3 0, L_000001f2c75dc3e0;  1 drivers
+L_000001f2c73debb0 .part L_000001f2c75dc340, 1, 1;
+L_000001f2c73dec50 .part L_000001f2c75dc340, 0, 1;
+L_000001f2c75dc7a0 .arith/sum 4, o000001f2c7596fb8, o000001f2c7596fe8;
+L_000001f2c75dc020 .concat [ 1 3 0 0], o000001f2c7597018, L_000001f2c75dcc28;
+L_000001f2c75dc3e0 .arith/sum 4, L_000001f2c75dc7a0, L_000001f2c75dc020;
+L_000001f2c75dc340 .part L_000001f2c75dc3e0, 0, 2;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "-";
+    "Sumador.v";
