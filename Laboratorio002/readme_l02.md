@@ -78,3 +78,20 @@ end
 
 endmodule
 ```
+
+El anterior código insertará los diferentes valores de las entradas por intervalo de tiempo. Acontinuación se mostrará el resultado.
+
+![](Imagenes/Sumador1bit/Gráfica_SumadorBits.png)
+
+El resultado de la simulación la podemos representar con la siguiente tabla de verdad:
+
+| A   | B   | Ci  | X1  | A1  | A2  | S1  | Co  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   |
+| 0   | 0   | 1   | 0   | 0   | 0   | 1   | 0   |
+| 0   | 1   | 0   | 1   | 0   | 0   | 1   | 0   |
+| 0   | 1   | 1   | 1   | 0   | 1   | 0   | 1   |
+| 1   | 0   | 0   | 1   | 0   | 0   | 1   | 0   |
+| 1   | 0   | 1   | 1   | 0   | 1   | 0   | 1   |
+| 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
+| 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
