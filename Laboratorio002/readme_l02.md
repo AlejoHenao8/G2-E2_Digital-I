@@ -101,7 +101,13 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 Como se puede ver en la tabla de verdad los resultados de la simulación  son los esperados para un sumador de 1 bit, por esto el siguiente paso es configurar la FPGA con Quartus para ver el comportamiento real de la misma al subir el codigo utlizado.
 
 Primero se toma el codigo del sumador de 1 bit y se corre en Quartus para confirmar que no tenga errores:
+
 ![](Imagenes/Sumador1bit/SumadorCodeQuartus1.png)
+
+Luego se definen los puertos que se utilizaran en la FPGA, para este caso se definen las entradas como switches y las salidas como leds:
+
+![](Imagenes/Sumador1bit/Screenshot from 2024-03-11 10-16-52.png)
+
 
 
 
