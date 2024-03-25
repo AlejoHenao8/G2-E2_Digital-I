@@ -105,3 +105,54 @@ Para realizar el circuto logico del sumador de 4 bits se aprovecha el sumador de
 
 ![](Imagenes/Sumador4bits/image.png)
 
+```verilog
+module lab01(A,B,CI,S1,CO);
+input A;
+input B;
+input CI;
+
+output S1;
+output CO;
+
+wire X1; // salida de compuerta XOR 1
+wire A1; // salida de compuerta AND 1
+wire A2; // salida de compuerta AND 2
+
+//Conexión de compuertas
+assign X1 = A ^ B; 
+assign A1 = A & B;
+assign A2 = X1 & CI;
+assign S1 = X1 ^ CI;
+assign CO = A1 | A2;
+
+endmodule
+```
+
+utilizando el código del sumador de 1 bit, lo iteramos usando vectores para hacer el de 4 bits encontrado en `src/Sumador4bits/Sumador4.v` 
+
+```verilog
+`include "Sumador.v"
+
+module sum4b(A, B, Ci, S, Co);
+
+input [3:0] A;
+input [3:0] B;
+input Ci;
+output [3:0] S;   
+output Co;
+
+wire C1,C2,C3;
+
+sum1b sum0(.a(A[0]), .b(B[0]), .ci(Ci),.s(S[0]), .co(C1));
+sum1b sum1(.a(A[1]), .b(B[1]), .ci(C1), .s(S[1]), .co(C2));
+sum1b sum2(.a(A[2]), .b(B[2]), .ci(C2), .s(S[2]), .co(C3));
+sum1b sum3(.a(A[3]), .b(B[3]), .ci(C3), .s(S[3]), .co(Co));
+
+endmodule
+```
+
+y con su respectivo testbech en la ubicación `src/Sumador4bits/Sumador4_tb.v` donde se prueban las combinaciones $A+B=2A$, es decir, las combinaciones donde $A=B$ y se logra la simulación: 
+
+![](Imagenes/Sumador4bits/Simulacion4bit.png)
+
+Se nota que para los casos donde $A=B<8_{DEC}$ o $S<16_{DEC}$ los resultados de $S$ son predecibles, pero cuando $S\geq 16_{DEC}$, es decir, cuando los 4 bits ya no son suficientes para representar el número, el acarreo de salida `Co` pasa de `0` a `1`, y al poner ese bit a la izquierda de `S` cobra sentido la suma, por ejemplo con $A=B=8_{DEC}$ = $1000_{BIN}$, $Co=1_{BIN}$ por lo que el número queda $Co$ __ $S=$ $1_{BIN}$ _ $0000_{BIN}=10000_{BIN}$ o $16_{DEC}$
