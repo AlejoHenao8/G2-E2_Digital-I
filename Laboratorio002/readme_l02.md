@@ -30,7 +30,7 @@ assign CO = A1 | A2;
 endmodule
 ```
 Con esto tendríamos contruido nuestro sumador de 1 bit. Ahora se procederá a probarlo en una simulación. Para simularlo se usará el programa Questa con el siguiente código como nuestro archivo Testbench.
-``` verlog 
+```verilog 
 module lab01_TB(); //archivo para la simulacion
 
 reg A_tb;
@@ -96,14 +96,7 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
 | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
 
-
-
-
 https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/a6bda13f-0fee-42d1-811e-9f9e0b13a91f
-
-
-
-
 
 ## Sumador de un 4 bit
 
