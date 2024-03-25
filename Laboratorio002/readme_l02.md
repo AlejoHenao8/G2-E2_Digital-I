@@ -98,7 +98,16 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
 | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
 
+Como se puede ver en la tabla de verdad los resultados de la simulación  son los esperados para un sumador de 1 bit, por esto el siguiente paso es configurar la FPGA con Quartus para ver el comportamiento real de la misma al subir el codigo utlizado.
+
+Primero se toma el codigo del sumador de 1 bit y se corre en Quartus para confirmar que no tenga errores:
+![](Imagenes/Sumador1bit/SumadorCodeQuartus1.png)
+
+
+
 https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/a6bda13f-0fee-42d1-811e-9f9e0b13a91f
+
+
 
 ## Sumador de un 4 bit
 
