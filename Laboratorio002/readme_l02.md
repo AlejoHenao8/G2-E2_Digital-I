@@ -95,3 +95,6 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 | 1   | 0   | 1   | 1   | 0   | 1   | 0   | 1   |
 | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
 | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
+
+
+## Sumador de un 4 bit
