@@ -97,7 +97,7 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
 
 
-https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/c41ad106-a66e-4f1a-acc1-d5b61f4910ff.mp4
+https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/c41ad106-a66e-4f1a-acc1-d5b61f4910ff
 
 
 
