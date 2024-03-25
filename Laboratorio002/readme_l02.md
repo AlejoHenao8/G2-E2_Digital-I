@@ -98,3 +98,7 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 
 
 ## Sumador de un 4 bit
+
+Para realizar el circuto logico del sumador de 4 bits se aprovecha el sumador de 1 bit realizado anteriormente, de esta forma uniendo cuatro sumadores de un bit se puede obtener el sumador de 4 bit como se observa a continuación: 
+
+
