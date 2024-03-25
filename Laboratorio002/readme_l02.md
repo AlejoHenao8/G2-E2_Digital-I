@@ -169,3 +169,24 @@ y con su respectivo testbech en la ubicación `src/Sumador4bits/Sumador4_tb.v` d
 ![](Imagenes/Sumador4bits/Simulacion4bit.png)
 
 Se nota que para los casos donde $A=B<8_{DEC}$ o $S<16_{DEC}$ los resultados de $S$ son predecibles, pero cuando $S\geq 16_{DEC}$, es decir, cuando los 4 bits ya no son suficientes para representar el número, el acarreo de salida `Co` pasa de `0` a `1`, y al poner ese bit a la izquierda de `S` cobra sentido la suma, por ejemplo con $A=B=8_{DEC}$ = $1000_{BIN}$, $Co=1_{BIN}$ por lo que el número queda $Co$ __ $S=$ $1_{BIN}$ _ $0000_{BIN}=10000_{BIN}$ o $16_{DEC}$
+
+Por lo que genera la siguiente tabla de verdad:
+
+| DEC |  A   |  B   | Co  |  S   | Co_S DEC |
+| :-: | :--: | :--: | :-: | :--: | :------: |
+|  0  | 0000 | 0000 |  0  | 0000 |    0     |
+|  1  | 0001 | 0001 |  0  | 0010 |    2     |
+|  2  | 0010 | 0010 |  0  | 0100 |    4     |
+|  3  | 0011 | 0011 |  0  | 0110 |    6     |
+|  4  | 0100 | 0100 |  0  | 1000 |    8     |
+|  5  | 0101 | 0101 |  0  | 1010 |    10    |
+|  6  | 0110 | 0110 |  0  | 1100 |    12    |
+|  7  | 0111 | 0111 |  0  | 1110 |    14    |
+|  8  | 1000 | 1000 |  1  | 0000 |    16    |
+|  9  | 1001 | 1001 |  1  | 0010 |    18    |
+| 10  | 1010 | 1010 |  1  | 0100 |    20    |
+| 11  | 1011 | 1011 |  1  | 0110 |    22    |
+| 12  | 1100 | 1100 |  1  | 1000 |    24    |
+| 13  | 1101 | 1101 |  1  | 1010 |    26    |
+| 14  | 1110 | 1110 |  1  | 1100 |    28    |
+| 15  | 1111 | 1111 |  1  | 1110 |    30    |
