@@ -102,5 +102,5 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 Para realizar el circuto logico del sumador de 4 bits se aprovecha el sumador de 1 bit realizado anteriormente, de esta forma uniendo cuatro sumadores de un bit se puede obtener el sumador de 4 bit como se observa a continuación: 
 
 
-![](Imagenes/Sumador1bit/SumadorCodeQuartus1.png)
+![](Imagenes/Sumador4bits/image.png)
 
