@@ -106,7 +106,7 @@ Primero se toma el codigo del sumador de 1 bit y se corre en Quartus para confir
 
 Luego se definen los puertos que se utilizaran en la FPGA, para este caso se definen las entradas como switches y las salidas como leds:
 
-![](Imagenes/Sumador1bit/Screenshot from 2024-03-11 10-16-52.png)
+![](Imagenes/Sumador1bit/pines.png)
 
 
 
