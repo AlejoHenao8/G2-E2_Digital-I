@@ -111,6 +111,7 @@ Luego se definen los puertos que se utilizaran en la FPGA, para este caso se def
 
 
 
+
 https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/a6bda13f-0fee-42d1-811e-9f9e0b13a91f
 
 
