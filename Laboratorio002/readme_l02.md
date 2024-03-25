@@ -5,7 +5,7 @@ Para realizar el circuito eléctrónico sumador de un bit, hicimos uso de dos co
 
 ![](Imagenes/Sumador1bit/Sumador.png)
 
-El primer paso a seguir en la construcción del circuito es definir las entradas, que son, A, B y Ci (Acarreo de entrada). Luego, se define las salidas de cada operación lógica. Vease el siguiente bloque de código.
+El primer paso a seguir en la construcción del circuito es definir las entradas, que son, A, B y Ci (Acarreo de entrada). Luego, se define las salidas de cada operación lógica. Vease el siguiente bloque de código encontrado en `src/Sumador1bit/Sumador1bit.v`.
 
 ```verilog
 module lab01(A,B,CI,S1,CO);
@@ -29,7 +29,9 @@ assign CO = A1 | A2;
 
 endmodule
 ```
-Con esto tendríamos contruido nuestro sumador de 1 bit. Ahora se procederá a probarlo en una simulación. Para simularlo se usará el programa Questa con el siguiente código como nuestro archivo Testbench.
+
+Con esto tendríamos contruido nuestro sumador de 1 bit. Ahora se procederá a probarlo en una simulación. Para simularlo se usará el programa Questa con el siguiente código como nuestro archivo Testbench en `src/Sumador1bit/Sumador1bit_tb.v`.
+
 ```verilog 
 module lab01_TB(); //archivo para la simulacion
 
@@ -104,6 +106,8 @@ Para realizar el circuto logico del sumador de 4 bits se aprovecha el sumador de
 
 
 ![](Imagenes/Sumador4bits/image.png)
+
+`src/Sumador1bit/Sumador1bit.v`
 
 ```verilog
 module lab01(A,B,CI,S1,CO);
