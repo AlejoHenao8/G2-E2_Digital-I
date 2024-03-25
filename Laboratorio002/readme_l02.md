@@ -108,7 +108,12 @@ Luego se definen los puertos que se utilizaran en la FPGA al correr el programa,
 
 ![](Imagenes/Sumador1bit/pines.png)
 
+Despues de esto se conecta la FPGA al PC y verifica si este la identifica, posteriormente teniendo cuidado de no interrumpir la conexión se configura la FPGA cargando la logica programda en verilog desde Quartus: 
 
+
+![](Imagenes/Sumador1bit/configFPGA.png)
+
+Finalmente se comprueba el correcto funcionamiento del sumador de 1 bit en la FPGA confirmando que se obtenga la misma tabla de verdad que en las simulaciones con las diferentes combinaciones de entradas, este proceso se puede ver en el siguente video: 
 
 
 
