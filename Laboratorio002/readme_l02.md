@@ -96,8 +96,5 @@ El resultado de la simulación la podemos representar con la siguiente tabla de 
 | 1   | 1   | 0   | 0   | 1   | 0   | 0   | 1   |
 | 1   | 1   | 1   | 0   | 1   | 1   | 1   | 1   |
 
-Y al cargar el codigo en la FPGA se vería de la siguiente forma
-
-![](Imagenes/Sumador1bit/Sumador 1 bit FPGA.mp4)
 
 ## Sumador de un 4 bit
