@@ -1,0 +1,254 @@
+$date
+	Sat Apr 06 18:51:02 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module sumwdisplay_tb $end
+$scope module uut $end
+$var wire 3 ! A [2:0] $end
+$var wire 3 " B [2:0] $end
+$var wire 1 # CI $end
+$var wire 4 $ an [3:0] $end
+$var wire 4 % S_CO [3:0] $end
+$var wire 7 & SSeg [0:6] $end
+$var wire 3 ' S [2:0] $end
+$var wire 1 ( CO $end
+$scope module display $end
+$var wire 4 ) BCD [3:0] $end
+$var wire 4 * an [3:0] $end
+$var reg 7 + SSeg [0:6] $end
+$upscope $end
+$scope module uut $end
+$var wire 3 , A [2:0] $end
+$var wire 3 - B [2:0] $end
+$var wire 1 # CI $end
+$var wire 3 . S [2:0] $end
+$var wire 1 ( CO $end
+$var wire 2 / C [1:0] $end
+$scope module sum1bit0 $end
+$var wire 1 0 A $end
+$var wire 1 1 A1 $end
+$var wire 1 2 A2 $end
+$var wire 1 3 B $end
+$var wire 1 # CI $end
+$var wire 1 4 CO $end
+$var wire 1 5 S1 $end
+$var wire 1 6 X1 $end
+$upscope $end
+$scope module sum1bit1 $end
+$var wire 1 7 A $end
+$var wire 1 8 A1 $end
+$var wire 1 9 A2 $end
+$var wire 1 : B $end
+$var wire 1 ; CI $end
+$var wire 1 < CO $end
+$var wire 1 = S1 $end
+$var wire 1 > X1 $end
+$upscope $end
+$scope module sum1bit2 $end
+$var wire 1 ? A $end
+$var wire 1 @ A1 $end
+$var wire 1 A A2 $end
+$var wire 1 B B $end
+$var wire 1 C CI $end
+$var wire 1 ( CO $end
+$var wire 1 D S1 $end
+$var wire 1 E X1 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0E
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+b0 /
+b0 .
+b0 -
+b0 ,
+b1 +
+b1110 *
+b0 )
+0(
+b0 '
+b1 &
+b0 %
+b1110 $
+0#
+b0 "
+b0 !
+$end
+#100
+b10010 &
+b10010 +
+b10 %
+b10 )
+b10 '
+b10 .
+1=
+1;
+b1 /
+14
+11
+13
+10
+b1 "
+b1 -
+b1 !
+b1 ,
+#200
+b1001100 &
+b1001100 +
+0=
+b100 %
+b100 )
+b100 '
+b100 .
+1D
+0;
+1C
+04
+b10 /
+1<
+01
+18
+03
+1:
+00
+17
+b10 "
+b10 -
+b10 !
+b10 ,
+#300
+b100000 &
+b100000 +
+b110 %
+b110 )
+b110 '
+b110 .
+1=
+1;
+b11 /
+14
+11
+13
+10
+b11 "
+b11 -
+b11 !
+b11 ,
+#400
+0=
+b0 '
+b0 .
+0D
+0;
+0C
+b0 &
+b0 +
+04
+b0 /
+0<
+b1000 %
+b1000 )
+1(
+01
+08
+1@
+03
+0:
+1B
+00
+07
+1?
+b100 "
+b100 -
+b100 !
+b100 ,
+#500
+b1000 &
+b1000 +
+b1010 %
+b1010 )
+b10 '
+b10 .
+1=
+1;
+b1 /
+14
+11
+13
+10
+b101 "
+b101 -
+b101 !
+b101 ,
+#600
+b110001 &
+b110001 +
+0=
+b1100 %
+b1100 )
+b100 '
+b100 .
+1D
+0;
+1C
+04
+b10 /
+1<
+01
+18
+03
+1:
+00
+17
+b110 "
+b110 -
+b110 !
+b110 ,
+#700
+b110000 &
+b110000 +
+b1110 %
+b1110 )
+b110 '
+b110 .
+1=
+1;
+b11 /
+14
+11
+13
+10
+b111 "
+b111 -
+b111 !
+b111 ,
+#800
