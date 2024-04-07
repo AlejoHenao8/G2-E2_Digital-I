@@ -1,0 +1,51 @@
+$date
+	Sat Apr 06 19:31:32 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module seg7_tb $end
+$scope module uut $end
+$var wire 4 ! BCD [3:0] $end
+$var wire 4 " an [3:0] $end
+$var reg 7 # SSeg [0:6] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1 #
+b1110 "
+b0 !
+$end
+#100
+b1001111 #
+b1 !
+#200
+b10010 #
+b10 !
+#300
+b110 #
+b11 !
+#400
+b1001100 #
+b100 !
+#500
+b100100 #
+b101 !
+#600
+b100000 #
+b110 !
+#700
+b1111 #
+b111 !
+#800
+b0 #
+b1000 !
+#900
+b100 #
+b1001 !
+#1000
