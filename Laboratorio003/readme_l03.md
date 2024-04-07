@@ -7,7 +7,7 @@ Se ve que en la simulación se usaron los números del 0 al 9, en verde para el 
 
 ## FPGA
 
-[](https://drive.google.com/file/d/1WCeKJEhNxGwXNvRFDaoADuEJuAyZELl6/view?usp=drive_link)
+[https://drive.google.com/file/d/1WCeKJEhNxGwXNvRFDaoADuEJuAyZELl6/view?usp=drive_link](https://drive.google.com/file/d/1WCeKJEhNxGwXNvRFDaoADuEJuAyZELl6/view?usp=drive_link)
 
 
 https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/4a03ea3c-ece5-42d6-b93d-173a806567a8
@@ -55,7 +55,7 @@ Se ve que en la simulación se usaron los números en verde para el número en `
 
 ## FPGA
 
-[](https://drive.google.com/file/d/1UTIxP6hIXd9viHm9mhhmLkiKXnRXI1__/view?usp=drive_link)
+[https://drive.google.com/file/d/1UTIxP6hIXd9viHm9mhhmLkiKXnRXI1__/view?usp=drive_link](https://drive.google.com/file/d/1UTIxP6hIXd9viHm9mhhmLkiKXnRXI1__/view?usp=drive_link)
 
 
 https://github.com/AlejoHenao8/G2-E2_Digital-I/assets/159924359/dcabfe4e-6c60-4bbf-96bb-c59a23cb0cd6
