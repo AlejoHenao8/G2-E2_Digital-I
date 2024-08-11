@@ -199,3 +199,14 @@ always @(*) begin
     endcase
 end       
 ```
+#### Animación explicativa del funcionamiento del Múltiplexor (El izquierdo)
+<p style="text-align: center;">
+  <img src="https://www.cyberphysics.co.uk/graphics/animations/MUX.gif" alt="Animación de Múltiplexor">
+</p>
+
+
+## Resultado del laboratorio
+<video width="640" height="360" controls>
+  <source src="Laboratorio004/src/Contador.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
