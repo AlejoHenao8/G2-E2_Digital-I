@@ -206,7 +206,5 @@ end
 
 
 ## Resultado del laboratorio
-<video width="640" height="360" controls>
-  <source src="Laboratorio004/src/Contador.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
+<iframe width="560" height="315" src="https://youtube.com/shorts/_sQfcN54WRc" frameborder="0" allowfullscreen></iframe>
+
