@@ -206,5 +206,5 @@ end
 
 
 ## Resultado del laboratorio
-<iframe width="560" height="315" src="https://youtube.com/shorts/_sQfcN54WRc" frameborder="0" allowfullscreen></iframe>
+El resultado representado en la FPGA puede verse en el siguiente [Vídeo](https://youtube.com/shorts/_sQfcN54WRc?feature=share)
 
