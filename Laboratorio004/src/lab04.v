@@ -5,7 +5,8 @@ module lab04(
     input switch2,           // Switch para cambiar a centésimas de segundo
     input switch3,           // Switch para cambiar a milésimas de segundo
     output reg [6:0] seg,    // Señales para los segmentos a-g
-    output reg [3:0] an      
+    output reg [3:0] an
+);
 
 parameter cont_1s = 50000000;     // Valor de cont para generar 1 Hz a partir de un reloj de 50 MHz
 parameter cont_100ms = 5000000;   // Valor de cont para generar 10 Hz (décimas de segundo) a partir de un reloj de 50 MHz
