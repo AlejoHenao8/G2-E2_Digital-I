@@ -5,8 +5,7 @@ module lab04(
     input switch2,           // Switch para cambiar a centésimas de segundo
     input switch3,           // Switch para cambiar a milésimas de segundo
     output reg [6:0] seg,    // Señales para los segmentos a-g
-    output reg [3:0] an      // Señales para los anodos de los 4 dígitos
-);
+    output reg [3:0] an      
 
 parameter cont_1s = 50000000;     // Valor de cont para generar 1 Hz a partir de un reloj de 50 MHz
 parameter cont_100ms = 5000000;   // Valor de cont para generar 10 Hz (décimas de segundo) a partir de un reloj de 50 MHz
@@ -17,10 +16,10 @@ reg [WIDTH-1:0] counter;          // Contador para dividir la frecuencia
 
 reg [1:0] mode;                   // 00: segundos, 01: décimas de segundo, 10: centésimas de segundo, 11: milésimas de segundo
 reg clk_mode;                     // Señal de reloj para el modo actual
-reg [13:0] seg_counter;           // Contador de tiempo de 14 bits
+reg [13:0] seg_counter;           // Contador de 14 bits
 reg [1:0] digit_select;           // Selección del dígito activo (0-3)
 
-// Máquina de estados para cambiar de modo
+// Función para cambiar de modo
 always @(posedge clk or posedge rst) begin
     if (rst) begin
         mode <= 2'b00;
