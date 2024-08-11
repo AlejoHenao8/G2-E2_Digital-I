@@ -204,6 +204,13 @@ end
   <img src="https://www.cyberphysics.co.uk/graphics/animations/MUX.gif" alt="Animación de Múltiplexor">
 </p>
 
+## Simulación
+
+Al momento de simular en GTKWave se tuvo que tomar varias capturas para poder visualizar que funcione claramente los centecimales, decimales y unidades.
+
+![Cent](Imagenes/Simul-1.png)
+![Deci](Imagenes/Simul-2.png)
+![Unid](Imagenes/Simul-3.png)
 
 ## Resultado del laboratorio
 El resultado representado en la FPGA puede verse en el siguiente [Vídeo](https://youtube.com/shorts/_sQfcN54WRc?feature=share)
