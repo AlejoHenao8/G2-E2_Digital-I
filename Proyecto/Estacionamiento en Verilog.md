@@ -38,8 +38,8 @@ Sin embargo, en este código se han simplificado estos valores y se definen manu
 
 - `TIME_50CM = (2 * DISTANCE_50CM * CLOCK_FREQ) / SOUND_SPEED`
 - `TIME_60CM = (2 * DISTANCE_60CM * CLOCK_FREQ) / SOUND_SPEED`
-- `TIME_100CM = (2 * DISTANCE_100CM * CLOCK_FREQ) / SOUND_SPEED
-- `TIME_110CM = (2 * DISTANCE_100CM * CLOCK_FREQ) / SOUND_SPEED
+- `TIME_100CM = (2 * DISTANCE_100CM * CLOCK_FREQ) / SOUND_SPEED`
+- `TIME_110CM = (2 * DISTANCE_100CM * CLOCK_FREQ) / SOUND_SPEED`
 - `TIME_200CM = (2 * DISTANCE_200CM * CLOCK_FREQ) / SOUND_SPEED`
 
 Estos valores representan los ciclos de reloj para los umbrales de distancia medidos por el sensor de ultrasonido.
