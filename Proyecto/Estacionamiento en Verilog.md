@@ -72,7 +72,8 @@ Dependiendo del tiempo medido (es decir, la distancia), se activan diferentes LE
 
 En esta parte, puede sorprender que en `estacionamiento.v` se está usando una lógica negada, esto es debido a que el LED RGB es Ánodo Común, por esto, para pagarlo toca enviarle una señal de `"1"` y para encenderlo una señal de `"0"` en los pines RGB.
 
-![[LED_RGB_AnodoEsquema.jpg]]
+![LED](Imagenes/LED_RGB_AnodoEsquema.jpg)
+
 ## Inicialización de Registros
 
 Al iniciar el sistema, todos los registros y señales se inicializan con valores predeterminados:
@@ -94,10 +95,10 @@ Este módulo es una implementación simple y eficiente de un sistema de medició
 
 Usando el testbench `estacionamiento_tb.v` se logró visualizar en GTKWave el comportamiento del circuito, aunque tocó darle valores muy pequeños a las variables `TIME_50CM`, `TIME_100CM` y `TIME_200CM`, ya que el simulador no soportaba tanto tiempo de simulación.
 
-![[Testbech.png]]
+![Testbech](Imagenes/Testbech.png)
 
 # Resultado de Laboratorio
 
-El resultado representado en la FPGA puede verse en el siguiente video
+El resultado representado en la FPGA puede verse en el siguiente [video](https://drive.google.com/file/d/1kYswuLNDf6aY5AdGtk117V4tezFsEByy/view?usp=sharing)
 
-![[Resultado_Proyecto.mp4]]
+![Resultado_Proyecto](Imagenes/Resultado_Proyecto.mp4)
