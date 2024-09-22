@@ -102,3 +102,7 @@ Usando el testbench `estacionamiento_tb.v` se logró visualizar en GTKWave el co
 El resultado representado en la FPGA puede verse en el siguiente [video](https://drive.google.com/file/d/1kYswuLNDf6aY5AdGtk117V4tezFsEByy/view?usp=sharing)
 
 ![Resultado_Proyecto](Imagenes/Resultado_Proyecto.mp4)
+
+https://github.com/user-attachments/assets/7a20696d-8beb-4c6a-bd7d-452f602719d6
+
+
