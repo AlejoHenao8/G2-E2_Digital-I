@@ -70,7 +70,7 @@ Dependiendo del tiempo medido (es decir, la distancia), se activan diferentes LE
 - **Distancia entre 50 cm y 100 cm**: Se activa el LED de 100 cm.
 - **Distancia $\geq$ 100 cm**: Se activa el LED de 200 cm.
 
-En esta parte, puede sorprender que en `estacionamiento.v` se está usando una lógica negada, esto es debido a que el LED RGB es Ánodo Común, por esto, para pagarlo toca enviarle una señal de `"1"` y para encenderlo una señal de `"0"` en los pines RGB.
+En esta parte, puede sorprender que en `estacionamiento.v` se está usando una lógica negada, esto es debido a que el LED RGB es Ánodo Común, por esto, para apagarlo toca enviarle una señal de `"1"` y para encenderlo una señal de `"0"` en los pines RGB.
 
 ![LED](Imagenes/LED_RGB_AnodoEsquema.jpg)
 
